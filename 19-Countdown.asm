@@ -15,7 +15,7 @@ f:
   JUMPZ   c
   OUTBOX
   BUMPDN  0
-  JUMPZ    a
+  JUMPZ   a
   JUMP    f
 g:
   OUTBOX
