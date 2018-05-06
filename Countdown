@@ -1,7 +1,7 @@
 # Human Resource Machine Solution
 # Countdown
 
-JUMP   d
+  JUMP   d
 a:
 b:
 c:
