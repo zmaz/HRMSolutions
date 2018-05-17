@@ -1,0 +1,27 @@
+a:
+  INBOX
+  COPYTO    0
+  COPYFROM  9
+  COPYTO    6
+  COPYTO    7
+  BUMPUP    7
+  OUTBOX
+  COPYFROM  7
+  COPYTO    8
+  OUTBOX
+  JUMP      c
+b:
+  COPYFROM  8
+  OUTBOX
+c:
+  COPYFROM  7
+  COPYTO    6
+  COPYFROM  8
+  COPYTO    7
+  COPYFROM  6
+  ADD       7
+  COPYTO    8
+  COPYFROM  0
+  SUB       8
+  JUMPN     a
+  JUMP      b
