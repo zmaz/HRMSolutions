@@ -1,9 +1,9 @@
 a:
-  inbox
-  copyto    0
-  inbox
-  copyto    1
-  outbox 
-  copyfrom  0 
-  outbox
-  jump      a
+  INBOX
+  COPYTO    0
+  INBOX
+  COPYTO    1
+  OUTBOX 
+  COPYFROM  0 
+  OUTBOX
+  JUMP      a
