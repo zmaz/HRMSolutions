@@ -1,12 +1,12 @@
-  jump      b
+  JUMP      b
 a:
-  copyfrom  0
-  outbox
+  COPYFROM  0
+  OUTBOX
 b:
-  copyfrom  5
+  COPYFROM  5
 c:
-  copyto    0
-  inbox
-  jumpz     a
-  add       0
-  jump      c
+  COPYTO    0
+  INBOX
+  JUMPZ     a
+  ADD       0
+  JUMP      c
