@@ -1,6 +1,6 @@
 a:
 b:
-   inbox
-   jumpz    b
-   outbox
-   jump     a
+   INBOX
+   JUMPZ    b
+   OUTBOX
+   JUMP     a
